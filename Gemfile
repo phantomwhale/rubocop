@@ -23,6 +23,7 @@ gem 'test-queue'
 gem 'yard', '~> 0.9'
 
 group :test do
+  gem 'json_schemer', require: false
   gem 'webmock', require: false
 end
 
